@@ -7,7 +7,7 @@ setuptools.setup(
     version='1.0.0',
     description='Riemann client',
     url='https://github.com/satterly/python-riemann-client',
-    license='Apache License 2.0',
+    license='MIT',
     author='Nick Satterly',
     author_email='nick.satterly@gmail.com',
     packages=setuptools.find_packages(exclude=['bin', 'tests']),

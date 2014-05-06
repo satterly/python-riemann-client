@@ -1,7 +1,12 @@
+Riemann Client
+==============
+
+A command-line tool for [Riemann](http://github.com/aphyr/riemann) based on the [bernhard](https://github.com/banjiewen/bernhard) python API.
 
 Installation
 ------------
 
+    $ git clone https://github.com/satterly/python-riemann-client.git
     $ python setup.py install
 
 Usage
@@ -19,3 +24,8 @@ Usage
       metric_sint64 = 0
       metric_d = 0
       metric_f = 0.0
+
+License
+-------
+
+Copyright (c) 2013 Nick Satterly. Available under the MIT License.
